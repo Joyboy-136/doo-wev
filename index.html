@@ -5,33 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon"  href="icons/html.png">
-
+    <link rel="icon"  href="public/icons/html.png">
 </head>
 <body>
     
 <div class="login_form">
-    <h1 id="title" >MY WEBSITE</h1>
-
-    <label id="form">LOGIN</label><br>
-
-    <div id="email">
-        <caption>Email</caption> 
-        <input id="em" type="email" placeholder="Enter your email"/> 
-    </div>
-    
-    <div id="password">
-        <caption>Password</caption>
-        <input id ="pass" type="password" placeholder="Enter your password">
-    </div>
-
-    <div class="submit">
-        <button id="submit">Submit</button>
-    </div>
-    
-    <div class="sign_up">      
-       <a id="sign_in" href="sign_in.html">Don't have an account yet?</a>
-    </div>
+    <div class="form_container">
+        <h1 id="login_title">WELCOME</h1><br>
+        <h1 id="login_label">LOGIN</h1>
+        <div class="email_field">
+            <label id="email">Email</label>
+            <input id="email_input" type="email" placeholder="Enter your email" required>
+        </div>
+        <br>
+        <div class="password_field">
+            <label id="password">Password</label>
+            <input id="password_input" type="password" placeholder="Enter your password" required>
+        </div>
+        <br>
+        <div class="submit_field">
+           <input id="submit_button" type="submit" value="Login">
+        </div>
+   </div>
 </div>
 
 <script src="script.js"></script>
