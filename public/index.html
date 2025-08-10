@@ -9,19 +9,25 @@
 <body>
     
 <div class="login_form">
-    <h1>MY WEBSITE</h1>
+    <h1 id="title" >MY WEBSITE</h1>
 
-    <label>LOGIN</label><br>
+    <label id="form">LOGIN</label><br>
 
-    <caption>Email</caption> 
-    <input type="email" placeholder="Enter your email"/> 
+    <div id="email">
+        <caption>Email</caption> 
+        <input type="email" placeholder="Enter your email"/> 
+    </div>
+    
+    <div id="password">
+        <caption>Password</caption>
+        <input type="password" placeholder="Enter your password">
+    </div>
 
-    <caption>Password</caption>
-    <input type="password" placeholder="Enter your password">
+    <button id="submit">Submit</button>
 
-    <button>Submit</button>
-
-    <a href="sign_in.html">Don't have an account yet?</a>
+    <div class="sign_up">      
+       <a href="sign_in.html">Don't have an account yet?</>
+    </div>
 </div>
 
 <script src="script.js"></script>
