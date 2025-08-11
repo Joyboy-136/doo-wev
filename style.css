@@ -10,7 +10,7 @@
     .logo {
         color: white;
         font-size: 30px;
-       animation: slideUP 1s;
+        animation: slideUP 1s;
     }
     .register {
        animation: slideUP 1s;
