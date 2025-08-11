@@ -35,6 +35,7 @@
     .login-link a {
         font-size: large;
         color: white;
+        text-decoration: none;
     }
     form .input-box {
         width: 100%;
